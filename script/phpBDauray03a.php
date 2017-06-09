@@ -17,9 +17,7 @@ if (($linkdb = DB_connx("auraynodcap1")))
 
  echo "<input type=submit value='OK'> <font size=+3 color='#000000'  face='sans-serif'>";
  echo "</font></form>";
-//echo "</tr>";
  }
 
- 
 ?>
-
+<a href="index.html"><button type="button">Retour</button></a>

@@ -1,6 +1,6 @@
 <?php
 include ("INC_LAB.inc");
-//$nometudiant=$_POST["nometudiant"];
+
 $NumCen=$_POST["NumCen"];
 $AddIP=$_POST["AddIP"];
 $EtatFNC=$_POST["EtatFNC"];
@@ -8,7 +8,7 @@ $DebMes=$_POST["DebMes"];
 $EndMes=$_POST["EndMes"];
 $AcqMes=$_POST["AcqMes"];
 
-  echo"<HR>Modif de la Base <BR>";
+echo"<HR>Modif de la Base <BR>";
 echo"===> $NumCen ,$AddIP ,$EtatFNC, $DebMes ,$EndMes ,$AcqMes <BR>";
 
 if (($linkdb = DB_connx("auraynodcap1")))
@@ -24,6 +24,6 @@ if (($linkdb = DB_connx("auraynodcap1")))
 	}
 	else echo "<BIG><BIG>Désolé pas de BD </BIG></BIG>";
 
-	echo "<input name='submit' type='submit' value='Ecriture Script' <a href='phpDBauray02a.php'>"
-?>
 
+?>
+<a href="index.html"><button type="button">Retour</button></a>

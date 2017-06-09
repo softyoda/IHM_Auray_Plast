@@ -12,9 +12,9 @@ if (($linkdb = DB_connx("auraynodcap1")))
         echo " --->  $row[0],$row[1],$row[2],$row[3],$row[4] ";
         $host = $row[1];
      }
-     else echo "<BIG><BIG>Désolé PB dans BD </BIG></BIG>";
+     else echo "<BIG><BIG>DÃ©solÃ© PB dans BD </BIG></BIG>";
 }
- else echo "<BIG><BIG>Désolé pas de BD </BIG></BIG>";
+ else echo "<BIG><BIG>DÃ©solÃ© pas de BD </BIG></BIG>";
 
  /*
 $host = "192.160.100.123";
@@ -28,9 +28,9 @@ if (!$conn)
   echo "Echec dans la connection au serveur FTP<br>";
   exit;
 }
-echo "Connection réussie sur $host.<br>";
+echo "Connection rÃ©ussie sur $host.<br>";
 
-// Se logger 
+// Se logger
  $result = ftp_login($conn, $user, $password);
 if (!$result)
 {
@@ -38,27 +38,27 @@ if (!$result)
   ftp_quit($conn);
   exit;
 }
-echo "Connecté sous $user<br>";
-// Téléchargement du fichier
+echo "ConnectÃ© sous $user<br>";
+// Tï¿½lï¿½chargement du fichier
 if(ftp_pasv($conn, true))
 {
-   echo "Téléchargement en cours...<br>";
+   echo "TÃ©lÃ©chargement en cours...<br>";
    if (!$success = ftp_put($conn,"/home/pi/SCRIPT.SCR", "SCRIPT.SCR", FTP_ASCII))
    {
-      echo "Téléchargement impossible";
+      echo "TÃ©lÃ©chargement impossible";
       ftp_quit($conn);
       exit;
 }
 //fclose($fp);
-echo "Le fichier SCRIPT.SCR a bien été téléchargée";
+echo "Le fichier SCRIPT.SCR a bien Ã©tÃ© tÃ©lÃ©chargÃ©e";
 
 }
-else echo "Problemme  ";
+else echo "ProblÃ¨me  ";
 
 // close connection to host
 ftp_quit($conn);
 
 ?>
-
+<a href="index.html"><button type="button">Retour</button></a>
 </body>
 </html>

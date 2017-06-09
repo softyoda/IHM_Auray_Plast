@@ -1,10 +1,11 @@
 <?php
-// Ecrire dans le fichier SCR : Ecriture de l'entête du fichier
+// Ecrire dans le fichier SCR : Ecriture de l'entÃªte du fichier
 include ("INC_LAB.inc");
 $NumCen=$_POST["NumCen"];
 if (($linkdb = DB_connx("auraynodcap1")))
 	{
      $monfichier = fopen('SCRIPT.SCR','w');
+		print ("File ===> $monfichier <br>");
      $result = mysql_query("SELECT * FROM central where idcentral=$NumCen");
   	 if ($result)
  	 {
@@ -25,7 +26,7 @@ if (($linkdb = DB_connx("auraynodcap1")))
         fwrite($monfichier, $Ligne);
         echo "Fermeture FIle";
       }
-     $result = mysql_query("SELECT * FROM senarline where central_idcentral=110");
+     $result = mysql_query("SELECT * FROM Senarline where central_idcentral=110");
   	 if ($result)
  	 {
         while ($row =  mysql_fetch_array($result))
@@ -49,4 +50,4 @@ if (($linkdb = DB_connx("auraynodcap1")))
   }
 
 ?>
-
+<a href="index.html"><button type="button">Retour</button></a>

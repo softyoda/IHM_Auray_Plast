@@ -1,4 +1,3 @@
-
 <?php
 
 include ("INC_LAB.inc");
@@ -57,13 +56,13 @@ for($idx=0;$idx<6;$idx++)
   echo "<td>";
   echo "<font size=5 color='#000000' face='sans-serif'> Capteur <select name=$NomCap>";
          echo "<option value='None'> None";
-  $result = mysql_query("SELECT NomCap FROM nodcap");
+  $result = mysql_query("SELECT NomCap FROM NodCap");
   	if ($result)
  	 {
         while ($row =  mysql_fetch_array($result))
         {echo "<option value='$row[0]'>$row[0]";}
       }
-      
+
  echo "</select>";
       echo "</td>";
    echo "<td>";
@@ -73,13 +72,13 @@ for($idx=0;$idx<6;$idx++)
       echo "</tr>";
  }
   echo "</table>";
- 
- 
- 
+
+
+
  echo "<input type=submit value='OK'> <font size=+3 color='#000000'  face='sans-serif'>";
  echo "</font></td></form>";
 echo "</tr>";
  }
- 
-?>
 
+?>
+<a href="index.html"><button type="button">Retour</button></a>

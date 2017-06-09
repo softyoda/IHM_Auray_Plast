@@ -7,7 +7,7 @@
         <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
     </head>
 	<style>
-	#footer { 
+	#footer {
 		background-color: #303030 !important
 
 	}
@@ -30,10 +30,10 @@
 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
     <ul class="nav navbar-nav navbar-right">
         <li>
-            <a href="signin.php">Connexion</a>
+            <a href="/administration/index.php">Connexion</a>
         </li>
         <li>
-			<a href="register.php">S'enregistrer</a>
+			<a href="/administration/register.php">S'enregistrer</a>
         </li>
     </ul>
 </div>
@@ -46,20 +46,20 @@
                 <h1>Aurayplast</h1>
                 <h3>Présentation</h3>
                 <p>
-					Spécialisée depuis 1974 dans la production de joints d'étanchéité en POLYURETHANE 
+					Spécialisée depuis 1974 dans la production de joints d'étanchéité en POLYURETHANE
 					et de pièces techniques en matières plastiques injecté, AURAY PLAST vous apporte son
 					expérience et un service complet dans l'étude, la conception et la réalisation de vos
 					composants mécaniques plastiques.
 				</p></br>
-				
+
 				<p>
 					Le but de notre projet et de metre en place différents capteurs et actionneurs autour de la machine a injection.
 					Les données de ces capteurs sont stocker dans une base de donnée pour etre visualiser a distance via ce site.
 					Les capteurs servent a mesurer différentes données tels que la température, la pression, le taux d'humidité.
 				</p>
-				
+
 				<p>
-					Pour cela nous nous sommes séparer les taches 
+					Pour cela nous nous sommes séparer les taches
 				</p>
             </div>
             <div class="col-md-6"> <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"> </div>
@@ -74,7 +74,7 @@
                 <p>
 				<p>
 					Plan du site : </br>
-					<a href="/administration/signin.php">- Connexion</a></br>
+					<a href="/administration/index.php">- Connexion</a></br>
 					<a href="/administration/register.php">- S'enregistrer</a></br>
 					<a href="/administration/home.php">- Acceuil</a></br>
 					<a href="/administration/add-engine.php">- Ajouter une machine a injection</a></br>
@@ -82,18 +82,19 @@
 					<a href="/administration/assets">- Dossier comportant les assets</a></br>
 				</p>
 				<p>
-					
+
 				</p>
             </div>
             <div class="col-md-4"> <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
                 <center><h2>Pages de génération du fichier scripte</h2></center>
 				<p>
 					Plan du site : </br>
+          <a href="/script/index.html">- Accueil</a></br>
 					<a href="/script/phpBDauray01a.php">- Configuration centrale</a></br>
 					<a href="/script/phpBDauray02a.php">- Generation script</a></br>
 					<a href="/script/phpBDauray03a.php">- Ecriture script</a></br>
 					<a href="/script/phpFTPauray01a.php">- Transmission script</a></br>
-					
+
 				</p>
                 <p>
 					Constituer un fichier Script listant les diverses mesures à effectuer,
@@ -133,9 +134,9 @@
                 <div class="row">
                     <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
 					<a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-					<a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a> 
-					<a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a> 
-					<a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a> 
+					<a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+					<a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+					<a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
 					</div>
                 </div>
             </div>
