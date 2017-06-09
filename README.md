@@ -71,7 +71,7 @@ Cette interface est réalisé dans le cadre du projet de fin d'année de BTS Sys
 
 - L'IHM Web et la page d'accueil a été crée par [Yoann.S](https://twitter.com/softyoda) 
 
-- Les la base de donnée et pages de génération du fichier scripte`(/script)` ont été crée par Loïc.S
+- La base de donnée et les pages de génération du fichier scripte`(/script)` ont été crée par Loïc.S
 
 ## License  :lock:
 <a href="https://creativecommons.org/licenses/by-sa/2.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" align="left" height="30" width=auto ></a> 
