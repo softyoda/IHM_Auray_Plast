@@ -37,7 +37,9 @@ Dans MySQL, vous devez rajouter la database *auraynodcap1* permettant de stocker
 ## Installation  :inbox_tray:
 
 
-Pour installer cette interface, dézipper les fichiers sur un dossier accessible via le web (`/var/www/html` par exemple).
+Pour installer cette interface: 
+
+- Téléchargez et dézipper les fichiers sur un dossier accessible via le web (`/var/www/html` par exemple).
 
 - Ajouter les bases de données sql présent dans le dossier sql.
 
