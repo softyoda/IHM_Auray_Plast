@@ -45,14 +45,39 @@ Pour installer cette interface:
 
 - Editer les fichier **dbconnect.php** ainsi que **INC_LAB.incet** présent dans les dossier administration et script ajouter vos identifiants de connexion à la base de donnée MySQL.
 
-- Modifier les droits et le propriétaire du dossier/sous dossier via les commandes :
+- Modifier les droits et le propriétaire du dossier/sous dossier
 
-`chmod -R 776 /votre/fichier/web`
-
-`chmod -R utilisateur:groupe /votre/fichier/web`
-
-Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurité que vous souhaitez accorder à votre infrastructure. 
+Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurité que vous souhaitez accorder à votre infrastructure il est conseillé de mettre les droits en 775. 
 Vous pouvez par exemple interdire les droits en lecture à *dbconnect.php* et a *INC_LAB.inc* car il y a les identifiants de connexion à MySQL.
+
+
+
+Suites de commandes pour installation rapide :
+
+- Si vous n'avez pas configurer d'utilisateurs : 
+
+`sudo usermod -a -G www-data **votre utilisateur**
+sudo passwd **votre utilisateur**`
+
+
+- Si vous voulez modifier les droits d'un utilisateur :
+
+`sudo usermod -a -G www-data **votre utilisateur**`
+(Optionel)` sudo usermod -d /var/www/html **votre utilisateur**`
+
+
+- Télécharger le site :
+
+`sudo cd /var/www/
+sudo git clone https://github.com/softyoda/IHM_Auray_Plast.git`
+
+-Paramétrer les droits :
+sudo chgrp -R www-data /var/www/html
+sudo chmod -R g+w /var/www/html
+sudo chmod g+s /var/www/html
+
+`
+
 
 
 ## Historique des modifications  :calendar:
