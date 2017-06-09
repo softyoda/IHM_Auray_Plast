@@ -25,6 +25,8 @@ Modifier les droits et le propritaire du dossier/sous dossier via la commande
 
 `chmod -R utilisateur:groupe /votre/fichier/web`
 
+Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurité que vous souhaitez accorder a votre infrastructure. Vous pouvez par exemple sécuriser dbconnect.php
+
 
 ## Historique des modifications
 
@@ -44,8 +46,7 @@ Les la base de donnée et pages de génération du fichier scripte`(/script)` on
 
 ## License
 
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" width="48"CC BY SA>
-Cette licence autorise toute utilisation de l’œuvre originale (y compris à des fins commerciales) ainsi que la création d’œuvres dérivées, à condition qu’elles soient distribuées sous une licence identique à celle qui régit l’œuvre originale.
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png)
+CC BY SA Cette licence autorise toute utilisation de l’œuvre originale (y compris à des fins commerciales) ainsi que la création d’œuvres dérivées, à condition qu’elles soient distribuées sous une licence identique à celle qui régit l’œuvre originale.
 
 
