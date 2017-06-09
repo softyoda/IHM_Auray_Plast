@@ -110,15 +110,20 @@
             </div>
             <div class="col-md-4"> <a href="/administration/assets/img/Affiche-presentation.png"><img src="administration/assets/img/presentation.jpg" class="img-responsive"></a>
                 <center><h2>Autres documents</h2></center>
-                <p>
-					</br>
-          <p>Liste des autres documents:</p>
+                <p></br>
+				 <p>Liste des autres documents:</p>
 					<a href="/administration/assets/img/Affiche-presentation.png" target="_blank">- Affiche de présentation</a></br>
-          <p>
-            Affiche crée sous photoshop pour présenter le projet aux portes ouvertes.
-          </p>
-					<a href="/administration/assets/pdf/projet.pdf" target="_blank">- Dossier technique</a></br>
-					Dossier technique du projet.
+				 <p>
+					Affiche crée sous photoshop pour présenter le projet aux portes ouvertes.
+				 </p>
+				<p>
+				<a href="/administration/assets/pdf/projet.pdf" target="_blank">- Dossier technique</a></br>
+				Dossier technique du projet.
+				</p>
+				<p>
+				  <a href="/administration/assets/pdf/fiche_de_recette+tuto.pdf" target="_blank">- Recette + tutoriel Yoann.s</a></br>
+				  Contient une fiche de recette permettant de connaitre les mécanismes permettant de vérifier le bon fonctionnement du site.
+				  Il y a aussi un tutoriel indiquant la démarche a suivre en arrivant et en cas de problèmes.
 				</p>
             </div>
         </div>
