@@ -1,7 +1,7 @@
 <?php
 include ("INC_LAB.inc");
 if (($linkdb = DB_connx("auraynodcap1")))
-	{  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Lignes de Senario  <BR> ";
+	{  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Lignes du Scenario  <BR> ";
        echo " Attention les Lignes existantes seront détruites <BR></font></a></b>";
   echo " <form action= phpBDauray02b.php  method=POST>";
   echo "<font size=+2color='#000000' face='sans-serif'> Centrale <select name='NumCen'>";
