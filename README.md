@@ -20,8 +20,10 @@ Pour installer cette interface, dézipper les fichiers sur un dossier accesible 
 Editer le fichier dbconnect.php et ajouter vos identifiants de connexion a la base de donnée MySQL.
 
 Modifier les droits et le propritaire du dossier/sous dossier via la commande
+
 `chmod -R 776 /votre/fichier/web`
-`chmod -R utilisateur:groupe /votre/fichier/web
+
+`chmod -R utilisateur:groupe /votre/fichier/web`
 
 
 ## Historique des modifications
@@ -34,8 +36,16 @@ Correction de bug.
 
 ## Crédit
 
+Cette interface est réalisé dans le cadre du projet de fin d'année de BTS Systèmes Numériques option Informatique et Réseaux de la Croix Rouge la Salle de Brest.
+
+L'IHM Web et la page d'accueil a été crée par [Yoann.S](https://twitter.com/softyoda) 
+
+Les la base de donnée et pages de génération du fichier scripte`(/script)` ont été crée par Loïc.S
+
 ## License
-![picture alt](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png = 25x "BY SA")
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" width="48"CC BY SA>
 Cette licence autorise toute utilisation de l’œuvre originale (y compris à des fins commerciales) ainsi que la création d’œuvres dérivées, à condition qu’elles soient distribuées sous une licence identique à celle qui régit l’œuvre originale.
 
 
