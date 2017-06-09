@@ -52,31 +52,31 @@ Vous pouvez par exemple interdire les droits en lecture à *dbconnect.php* et a 
 
 
 
-**Sommandes pour une installation rapide :**
+#### **Commandes pour une installation rapide :**
 
 
-- *Si vous n'avez pas configurer d'utilisateurs : *
+- **Si vous n'avez pas configurer d'utilisateurs :**
 
 `sudo usermod -a -G www-data` **votre utilisateur**
-`sudo passwd `**votre utilisateur**`
+`sudo passwd `**votre utilisateur**
 
 
 
-- *Si vous voulez modifier les droits d'un utilisateur : *
+- **Si vous voulez modifier les droits d'un utilisateur :**
 
 `sudo usermod -a -G www-data `**votre utilisateur**`
-(Optionel)` sudo usermod -d /var/www/html `**votre utilisateur**
+(Optionel) `sudo usermod -d /var/www/html` **votre utilisateur**
 
 
 
-- *Télécharger le site :*
+- **Télécharger le site :**
 
 `sudo cd /var/www/`
 `sudo git clone https://github.com/softyoda/IHM_Auray_Plast.git`
 
 
 
-- *Paramétrer les droits :*
+- **Paramétrer les droits :**
 
 `sudo chgrp -R www-data /var/www/html`
 `sudo chmod -R g+w /var/www/html`
