@@ -46,12 +46,17 @@ Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurit�
 
 Cette interface est réalisé dans le cadre du projet de fin d'année de BTS Systèmes Numériques option Informatique et Réseaux de la Croix Rouge la Salle de Brest.
 
-L'IHM Web et la page d'accueil a été crée par [Yoann.S](https://twitter.com/softyoda) 
+- L'IHM Web et la page d'accueil a été crée par [Yoann.S](https://twitter.com/softyoda) 
 
-Les la base de donnée et pages de génération du fichier scripte`(/script)` ont été crée par Loïc.S
+- Les la base de donnée et pages de génération du fichier scripte`(/script)` ont été crée par Loïc.S
 
 ## License  :lock:
-<a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" align="left" height="30" width=auto ></a>
-**CC BY SA** Cette licence autorise toute utilisation de l’œuvre originale (y compris à des fins commerciales) ainsi que la création d’œuvres dérivées, à condition qu’elles soient distribuées sous une licence identique à celle qui régit l’œuvre originale.
+<a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" align="left" height="30" width=auto ></a> 
+[**CC BY SA**](https://creativecommons.org/licenses/by-sa/2.0/fr/) 
 
+- Attribution — Vous devez créditer l'Œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées à l'Oeuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l'Offrant vous soutient ou soutient la façon dont vous avez utilisé son Oeuvre.
+
+- Partage dans les Mêmes Conditions — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'Oeuvre originale, vous devez diffuser l'Oeuvre modifiée dans les même conditions, c'est à dire avec la même licence avec laquelle l'Oeuvre originale a été diffusée.
+
+- Pas de restrictions complémentaires — Vous n'êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l'Oeuvre dans les conditions décrites par la licence.
 
