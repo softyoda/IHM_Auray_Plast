@@ -39,9 +39,11 @@ Dans MySQL, vous devez rajouter la database *auraynodcap1* permettant de stocker
 
 Pour installer cette interface, dézipper les fichiers sur un dossier accessible via le web (`/var/www/html` par exemple).
 
-Editer le fichier **dbconnect.php** et ajouter vos identifiants de connexion à la base de donnée MySQL.
+- Ajouter les bases de données sql présent dans le dossier sql.
 
-Modifier les droits et le propriétaire du dossier/sous dossier via les commandes :
+- Editer les fichier **dbconnect.php** ainsi que **INC_LAB.incet** présent dans les dossier administration et script ajouter vos identifiants de connexion à la base de donnée MySQL.
+
+- Modifier les droits et le propriétaire du dossier/sous dossier via les commandes :
 
 `chmod -R 776 /votre/fichier/web`
 
