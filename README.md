@@ -9,7 +9,7 @@ Cette interface répond donc à un cahier des charges, mais ce projet reste publ
 
 
 
-<a href="http://aurayplast.fr/"><img src="https://raw.githubusercontent.com/softyoda/IHM_Auray_Plast/master/assets/img/shema.PNG" align="middle" height="300" width=auto ></a> 
+<a href="http://aurayplast.fr/"><img src="https://raw.githubusercontent.com/softyoda/IHM_Auray_Plast/master/administration/assets/img/shema.PNG" align="middle" height="300" width=auto ></a> 
 
 
 
