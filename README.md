@@ -64,7 +64,7 @@ Vous pouvez par exemple interdire les droits en lecture à *dbconnect.php* et a 
 
 - **Si vous voulez modifier les droits d'un utilisateur :**
 
-`sudo usermod -a -G www-data `**votre utilisateur**`
+`sudo usermod -a -G www-data` **votre utilisateur**
 (Optionel) `sudo usermod -d /var/www/html` **votre utilisateur**
 
 
