@@ -30,14 +30,14 @@ Cette interface répond donc à un cahier des charges, mais ce projet reste publ
 
 Pour que cette interface fonctionne aurez besoin d'un serveur web tel que **Apache** ou Nginx avec **PHP7** et **MySQL** et ces dépendances. 
 
-Dans MySQL, vous devez rajouter la database auraynodcap1 permettant de stocker les mesures, et la database dbtest permetant de stocker les utilisateurs.
+Dans MySQL, vous devez rajouter la database *auraynodcap1* permettant de stocker les mesures, et la database *dbtest* permetant de stocker les utilisateurs.
 
 
 
 ## Installation  :inbox_tray:
 
 
-Pour installer cette interface, dézipper les fichiers sur un dossier accesible via le web ( /var/www/html par exemple) 
+Pour installer cette interface, dézipper les fichiers sur un dossier accesible via le web (`/var/www/html` par exemple) 
 
 Editer le fichier **dbconnect.php** et ajouter vos identifiants de connexion a la base de donnée MySQL.
 
@@ -47,7 +47,8 @@ Modifier les droits et le propritaire du dossier/sous dossier via la commande
 
 `chmod -R utilisateur:groupe /votre/fichier/web`
 
-Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurité que vous souhaitez accorder a votre infrastructure. Vous pouvez par exemple sécuriser dbconnect.php
+Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurité que vous souhaitez accorder a votre infrastructure. 
+Vous pouvez par exemple interdir les droits en lecture a dbconnect.php car il y a les identifients de connexion a MySQL.
 
 
 ## Historique des modifications  :calendar:
