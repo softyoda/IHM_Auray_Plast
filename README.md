@@ -13,6 +13,11 @@ Pour que cette interface fonctionne aurez besoin d'un serveur web tel que **Apac
 
 Dans MySQL, vous devez rajouter la database auraynodcap1 permettant de stocker les mesures, et la database dbtest permetant de stocker les utilisateurs.
 
+<a href="http://aurayplast.fr/"><img src="https://raw.githubusercontent.com/softyoda/IHM_Auray_Plast/master/assets/img/shema.PNG" align="left" height="150" width=auto ></a> 
+
+
+
+
 ## Installation  :inbox_tray:
 
 Pour installer cette interface, dézipper les fichiers sur un dossier accesible via le web ( /var/www/html par exemple) 
@@ -51,7 +56,7 @@ Cette interface est réalisé dans le cadre du projet de fin d'année de BTS Sys
 - Les la base de donnée et pages de génération du fichier scripte`(/script)` ont été crée par Loïc.S
 
 ## License  :lock:
-<a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" align="left" height="30" width=auto ></a> 
+<a href="https://creativecommons.org/licenses/by-sa/2.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" align="left" height="30" width=auto ></a> 
 [**CC BY SA**](https://creativecommons.org/licenses/by-sa/2.0/fr/) 
 
 - Attribution — Vous devez créditer l'Œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées à l'Oeuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l'Offrant vous soutient ou soutient la façon dont vous avez utilisé son Oeuvre.
