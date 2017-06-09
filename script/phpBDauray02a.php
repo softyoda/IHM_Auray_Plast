@@ -1,8 +1,22 @@
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+</style>
 <?php
+
 include ("INC_LAB.inc");
 if (($linkdb = DB_connx("auraynodcap1")))
-	{  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Lignes du Scenario  <BR> ";
-       echo " Attention les Lignes existantes seront détruites <BR></font></a></b>";
+	{  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Ecriture  Lignes de Senario  <BR> ";
+       echo " Attention les Lignes existantes seront detruites <BR></font></a></b>";
   echo " <form action= phpBDauray02b.php  method=POST>";
   echo "<font size=+2color='#000000' face='sans-serif'> Centrale <select name='NumCen'>";
   $result = mysql_query("SELECT idcentral FROM central");
@@ -15,7 +29,7 @@ if (($linkdb = DB_connx("auraynodcap1")))
 echo "<BR><BR>";
 echo "</select>";
 
-echo "<table border='1' width='60%'>" ;
+echo "<table>" ;
 //$NonFonc=array("F1","F2","F3","F4","F5","F6");
 for($idx=0;$idx<6;$idx++)
 {
@@ -59,7 +73,7 @@ for($idx=0;$idx<6;$idx++)
 
   echo " <font size=5 color='#000000' face='sans-serif'> Valeur <INPUT name=$NomVal size='10' type='text'> ";
        echo "</td>";
-      echo "</tr>";
+       echo "</tr>";
  }
   echo "</table>";
 

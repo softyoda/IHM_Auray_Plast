@@ -48,7 +48,7 @@ Modifier les droits et le propriétaire du dossier/sous dossier via les commande
 `chmod -R utilisateur:groupe /votre/fichier/web`
 
 Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurité que vous souhaitez accorder à votre infrastructure. 
-Vous pouvez par exemple interdire les droits en lecture à dbconnect.php car il y a les identifiants de connexion à MySQL.
+Vous pouvez par exemple interdire les droits en lecture à *dbconnect.php* et a *INC_LAB.inc* car il y a les identifiants de connexion à MySQL.
 
 
 ## Historique des modifications  :calendar:
@@ -57,19 +57,19 @@ Vous pouvez par exemple interdire les droits en lecture à dbconnect.php car il 
 
 - [x] Ajout d'un ReadMe.md complet /play yeah
 
-- [ ] Ajout d'une page d'accueil avec plan du site
+- [x] Ajout d'une page d'accueil avec plan du site
 
-- [ ] Ajout de la partie fichier script
+- [x] Ajout de la partie fichier script
 
-- [ ] Correction de bug
+- [x] Correction de bug
 
-- [ ] Ajout de favicon
+- [x] Ajout de favicon
 
 ## Crédit  :memo:
 
 Cette interface est réalisée dans le cadre du projet de fin d'année de BTS Systèmes Numériques option Informatique et Réseaux au lycée la Croix Rouge la Salle de Brest.
 
-- L'IHM Web et la page d'accueil a été crée par [Yoann.S](https://twitter.com/softyoda) 
+- L'IHM Web `(/administration)` et la page d'accueil a été crée par [Yoann.S](https://twitter.com/softyoda) 
 
 - La base de donnée et les pages de génération du fichier script`(/script)` ont été crée par Loïc.S
 

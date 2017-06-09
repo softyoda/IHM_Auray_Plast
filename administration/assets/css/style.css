@@ -914,12 +914,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #3d9970;
+  color: #46749F;
   text-decoration: none;
 }
-a:hover,
+a:hover{
+  color: #3A84C7;
+}
 a:focus {
-  color: #276248;
+  color: #214B71;
   text-decoration: underline;
 }
 a:focus {
@@ -4982,9 +4984,9 @@ a.list-group-item:focus {
 .list-group-item.active:hover,
 .list-group-item.active:focus {
   z-index: 2;
-  color: #ffffff;
-  background-color: #3d9970;
-  border-color: #3d9970;
+  color: #000000;
+  background-color: #B6CFE5;!important
+  border-color: #5EB2FF;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,

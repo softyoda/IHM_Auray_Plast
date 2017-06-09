@@ -4,7 +4,7 @@
 	error_reporting( ~E_DEPRECATED & ~E_NOTICE );
 	// but I strongly suggest you to use PDO or MySQLi.
 	
-	define('DBHOST', '127.0.0.1');
+	define('DBHOST', 'localhost');
 	define('DBUSER', 'root');
 	define('DBPASS', 'auray');
 	define('DBNAME', 'dbtest');

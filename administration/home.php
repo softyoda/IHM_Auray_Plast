@@ -28,7 +28,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="home.php" class="navbar-brand"><img height="20" alt="Brand" src="assets/img/aurayplast.png"></a>
+					<a href=".." class="navbar-brand"><img height="20" alt="Brand" src="assets/img/aurayplast.png"></a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-ex-collapse">
 					<ul class="nav navbar-nav navbar-right">

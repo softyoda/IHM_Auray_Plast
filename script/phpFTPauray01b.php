@@ -43,7 +43,7 @@ echo "Connecté sous $user<br>";
 if(ftp_pasv($conn, true))
 {
    echo "Téléchargement en cours...<br>";
-   if (!$success = ftp_put($conn,"/home/pi/SCRIPT.SCR", "SCRIPT.SCR", FTP_ASCII))
+   if (!$success = ftp_put($conn,"/home/pi/inv17/SCRIPT.SCR", "SCRIPT.SCR", FTP_ASCII))
    {
       echo "Téléchargement impossible";
       ftp_quit($conn);

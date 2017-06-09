@@ -1,5 +1,20 @@
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
 <?php
-
 include ("INC_LAB.inc");
 if (($linkdb = DB_connx("auraynodcap1")))
 {  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Configuration Central </font></a></b>";
@@ -14,7 +29,7 @@ if (($linkdb = DB_connx("auraynodcap1")))
       }
    echo "</select>";
    echo "<BR>";
-   echo "Address IP:<input type='text' size='20' name='AddIP'> <BR>" ;
+   echo "Adresse IP:<input type='text' size='20' name='AddIP'> <BR>" ;
    echo "<BR>";
    echo "On <input type='radio' name='EtatFNC' value='O' checked>" ;
    echo "Off<input type='radio' name='EtatFNC' value='F' > <BR> " ;

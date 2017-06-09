@@ -12,4 +12,5 @@ echo '
 		<script src="assets/js/bootstrap-select.js"></script>
 		<script src="assets/js/dataloader.min.js"></script>
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/png" href="/administration/assets/img/ico.png" />
 ';?>
