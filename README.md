@@ -7,13 +7,13 @@ Dans le souci d'augmenter son "EMS" (environnemental Management System), cette s
 
 Cette interface répond donc à un cahier des charges, mais ce projet reste public pour avoir un historique de modifications et permettre à certains de réutiliser les sources pour d'autres projets.
 
-## Prérequis
+## Prérequis  :computer:
 
 Pour que cette interface fonctionne aurez besoin d'un serveur web tel que **Apache** ou Nginx avec **PHP7** et **MySQL** et ces dépendances. 
 
 Dans MySQL, vous devez rajouter la database auraynodcap1 permettant de stocker les mesures, et la database dbtest permetant de stocker les utilisateurs.
 
-## Installation
+## Installation  :inbox_tray:
 
 Pour installer cette interface, dézipper les fichiers sur un dossier accesible via le web ( /var/www/html par exemple) 
 
@@ -30,17 +30,17 @@ Vous pouvez attribuer des droits plus fort ou faible en fonction de la sécurit�
 
 ## Historique des modifications  :calendar:
 
-- [x] 
+- [x] Ajout de la Base de donnée
 
 - [x] Ajout d'un ReadMe.md complet /play yeah
 
-- [] Ajout d'une page d'acceuil avec plan du site.
+- [ ] Ajout d'une page d'acceuil avec plan du site.
 
-- [] Ajout de la partie fichier script.
+- [ ] Ajout de la partie fichier script.
 
-- [] Correction de bug.
+- [ ] Correction de bug.
 
-- [] Ajout de favicon
+- [ ] Ajout de favicon
 
 ## Crédit  :memo:
 
@@ -51,8 +51,7 @@ L'IHM Web et la page d'accueil a été crée par [Yoann.S](https://twitter.com/s
 Les la base de donnée et pages de génération du fichier scripte`(/script)` ont été crée par Loïc.S
 
 ## License  :lock:
-
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png = 25x)
+<a href="url"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" align="left" height="30" width=auto ></a>
 **CC BY SA** Cette licence autorise toute utilisation de l’œuvre originale (y compris à des fins commerciales) ainsi que la création d’œuvres dérivées, à condition qu’elles soient distribuées sous une licence identique à celle qui régit l’œuvre originale.
 
 
