@@ -13,12 +13,42 @@ Pour que cette interface fonctionne aurez besoin d'un serveur web tel que **Apac
 
 Dans MySQL, vous devez rajouter la database auraynodcap1 permettant de stocker les mesures, et la database dbtest permetant de stocker les utilisateurs.
 
-<a href="http://aurayplast.fr/"><img src="https://raw.githubusercontent.com/softyoda/IHM_Auray_Plast/master/assets/img/shema.PNG" align="left" height="150" width=auto ></a> 
+<a href="http://aurayplast.fr/"><img src="https://raw.githubusercontent.com/softyoda/IHM_Auray_Plast/master/assets/img/shema.PNG" align="left" height="300" width=auto ></a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 ## Installation  :inbox_tray:
+
 
 Pour installer cette interface, dézipper les fichiers sur un dossier accesible via le web ( /var/www/html par exemple) 
 
