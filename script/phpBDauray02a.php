@@ -11,18 +11,9 @@ if (($linkdb = DB_connx("auraynodcap1")))
         while ($row =  mysql_fetch_array($result))
         {echo "<option value='$row[0]'>$row[0]";}
       }
-//        echo "Address IP  :<input type='text' size='20' name='AddIP'> <BR>" ;
-//        echo "Nom Centrale  :<input type='text' size='20' name='AddIP'> <BR> ";
+
 echo "<BR><BR>";
-  // echo "Fonctionne (On):<input type='radio' name='EtatFNC' value='O' checked>" ;
-//   echo "Arrete (oFf):<input type='radio' name='EtatFNC' value='F' > <BR> " ;
- //  echo "Debut Mesures   :<input type='text' size='20' name='DebMes'> <BR> " ;
-//   echo "Fin  Mesures   :<input type='text' size='20' name='EndMes'> <BR>";
-//   echo "Temps Acquisition  Mesures   :<input type='text' size='20' name='AcqMes'> <BR> " ;
-
- echo "</select>";
-// echo " <form action= phpBDauray01a.php  method=GET>";
-
+echo "</select>";
 
 echo "<table border='1' width='60%'>" ;
 //$NonFonc=array("F1","F2","F3","F4","F5","F6");
