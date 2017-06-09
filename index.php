@@ -142,8 +142,8 @@
                 </p>
                 <div class="row">
                     <div class="col-md-12 text-left">
-                          <a href="http://www.lacroixrouge-brest.fr/"><img src="/administration/assets/img/croix-rouge.png" height="150" target="_blank"></a>
-					          </div>
+                          <a href="http://www.lacroixrouge-brest.fr/" target="_blank"><img src="/administration/assets/img/croix-rouge.png" height="150" ></a>
+					 </div>
                 </div>
             </div>
         </div>
