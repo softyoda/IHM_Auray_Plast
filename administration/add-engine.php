@@ -265,21 +265,6 @@ if ($userRow['userIsAdmin']==1)
 			else
 			{
 
-				define('DBHOST', 'localhost');
-				define('DBUSER', 'root');
-				define('DBPASS', 'auray');
-				define('DBNAME', 'auraynodcap1');
-
-				$conn = mysql_connect(DBHOST,DBUSER,DBPASS);
-				$dbcon = mysql_select_db( 'auraynodcap1');
-					if ( !$conn ) {
-					die("Erreur de connexion : " . mysql_error());
-				}
-
-				if ( !$dbcon ) {
-					die("Erreur de connection a la base de données : " . mysql_error());
-				}
-
 				$query = "INSERT INTO `central` (`idcentral`, `AddIP`, `NomCent`, `EtatFNC`, `DebMes`, `EndMes`, `AcqMes`) VALUES (".$ID.", '".$IP."', '".$Nom."','F', '".$H_debut."', '".$H_fin."',0)";
 				$result = mysql_query ($query);
 

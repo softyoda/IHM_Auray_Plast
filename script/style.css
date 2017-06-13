@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     outline: none;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -22,7 +22,7 @@ body {
 }
 
 div.wrapper {
-  margin: 20px auto;
+  margin: 250px auto;
   width: 350px;
 }
 
@@ -75,14 +75,14 @@ nav.vertical {
          background-image: -webkit-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
          background-image: -moz-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
          background-image: -o-linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
-         background-image: linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98)); 
+         background-image: linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98));
          cursor: pointer;
         }
-        
+
           nav.vertical > ul > li > div {
             background-color: rgb(255,255,255);
           }
- 
+
           nav.vertical > ul > li > div > ul {
             list-style-type: none;
           }

@@ -1,9 +1,15 @@
-
+<style>
+h1{
+  font-family: 'Georgia', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+</style>
 <?php
 
 include ("INC_LAB.inc");
 if (($linkdb = DB_connx("auraynodcap1")))
-{  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Creation du fichier Script </font></a></b>";
+{  echo " <h1>Creation du fichier Script</h1>";
    echo " <form action= phpBDauray03b.php  method=POST>";
    echo "<font size=+2color='#000000' face='sans-serif'> Centrale <select name='NumCen'>";
    $result = mysql_query("SELECT idcentral FROM central");
@@ -18,6 +24,5 @@ if (($linkdb = DB_connx("auraynodcap1")))
  echo "<input type=submit value='OK'> <font size=+3 color='#000000'  face='sans-serif'>";
  echo "</font></form>";
  }
-
 ?>
 <a href="index.html"><button type="button">Retour</button></a>

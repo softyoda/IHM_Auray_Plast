@@ -8,15 +8,23 @@ th, td {
     text-align: left;
     padding: 8px;
 }
-
+h1{
+  font-family: 'Georgia', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+p{
+  font-family: 'Georgia', sans-serif;
+  font-size: 20px;
+}
 tr:nth-child(even){background-color: #f2f2f2}
 </style>
 <?php
 
 include ("INC_LAB.inc");
 if (($linkdb = DB_connx("auraynodcap1")))
-	{  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Ecriture  Lignes de Senario  <BR> ";
-       echo " Attention les Lignes existantes seront detruites <BR></font></a></b>";
+	{  echo " <h1>Ecriture  Lignes du Scenario </h1><BR> ";
+     echo " <p>Attention les Lignes existantes seront détruites<BR></font></p>";
   echo " <form action= phpBDauray02b.php  method=POST>";
   echo "<font size=+2color='#000000' face='sans-serif'> Centrale <select name='NumCen'>";
   $result = mysql_query("SELECT idcentral FROM central");
@@ -31,7 +39,7 @@ echo "</select>";
 
 echo "<table>" ;
 //$NonFonc=array("F1","F2","F3","F4","F5","F6");
-for($idx=0;$idx<6;$idx++)
+for($idx=0;$idx<7;$idx++)
 {
  echo "<tr>";
  echo "<td>";
@@ -43,7 +51,7 @@ for($idx=0;$idx<6;$idx++)
  $NomCap="CAP".(string)$idx;
  $NomVal="VAL".(string)$idx;
 
- //echo " <h1><font size=+2color='#FF0000' face='sans-serif'> NumLigne <INPUT name='NumLigne' size='3' type='text'> ";
+
  echo "<font size=5 color='#000000' face='sans-serif'> Fonction <select name=$NomFonc> "; //$NonFonc[$idx]> " ;
        echo "<option value='NONE'> NONE";
        echo "<option value='BEGIN'> BEGIN";
@@ -68,8 +76,8 @@ for($idx=0;$idx<6;$idx++)
       }
 
  echo "</select>";
-      echo "</td>";
-   echo "<td>";
+ echo "</td>";
+ echo "<td>";
 
   echo " <font size=5 color='#000000' face='sans-serif'> Valeur <INPUT name=$NomVal size='10' type='text'> ";
        echo "</td>";

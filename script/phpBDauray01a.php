@@ -8,19 +8,20 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+h1
+{
+  font-family: 'Georgia', sans-serif;
+  font-size: 40px;
+  text-align: center;
 }
 </style>
 <?php
 include ("INC_LAB.inc");
 if (($linkdb = DB_connx("auraynodcap1")))
-{  echo " <b><font size=+3 color='#0000ff'  face='sans-serif'> Configuration Central </font></a></b>";
+{  echo " <h1>Configuration Central</h1>";
    echo " <form action= phpBDauray01b.php  method=POST>";
    echo "<BR>";
-   echo "<font size=+2color='#000000' face='sans-serif'> Centrale <select name='NumCen'>";
+   echo "<font size=+2 color='#000000' face='sans-serif'> Centrale <select name='NumCen'></font>";
    $result = mysql_query("SELECT idcentral FROM central");
   	if ($result)
  	 {
@@ -29,20 +30,20 @@ if (($linkdb = DB_connx("auraynodcap1")))
       }
    echo "</select>";
    echo "<BR>";
-   echo "Adresse IP:<input type='text' size='20' name='AddIP'> <BR>" ;
+   echo "Adresse IP:<input type='text' name='AddIP'> <BR>" ;
    echo "<BR>";
+   echo "Etat Fonctionnement : ";
    echo "On <input type='radio' name='EtatFNC' value='O' checked>" ;
    echo "Off<input type='radio' name='EtatFNC' value='F' > <BR> " ;
    echo "<BR>";
-   echo "Debut Mesures :<input type='text' size='20' name='DebMes'> <BR> " ;
+   echo "Debut Mesures :<input type='text' name='DebMes'> <BR> " ;
    echo "<BR>";
-   echo "Fin  Mesures :<input type='text' size='20' name='EndMes'> <BR>";
+   echo "Fin  Mesures :<input type='text' name='EndMes'> <BR>";
    echo "<BR>";
-   echo "Temps Acquisition Mesures :<input type='text' size='20' name='AcqMes'> <BR> " ;
-   echo "<BR>";
+   echo "Temps Acquisition Mesures :<input type='text' name='AcqMes'> <BR> " ;
 
  echo "<input type=submit value='OK'> <font size=+3 color='#000000'  face='sans-serif'>";
- echo "</font></form>";
+ echo "</form>";
  }
 ?>
 <a href="index.html"><button type="button">Retour</button></a>

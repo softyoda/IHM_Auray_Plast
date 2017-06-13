@@ -359,6 +359,68 @@
 					{
 						echo '<center><h2>Erreur</center></h2>';
 						echo"<center>Aucunes valeures n'a été enregistré pour ce capteur";
+
+											echo '<h2> Rajouter des valeurs aléatoires </h2>';
+											echo '
+											<div class = "panel panel-default">
+												<div class = "panel-heading">
+													<h3 class = "panel-title">
+													Options
+													</h3>
+												</div>
+											<div class = "panel-body">
+											<form enctype="multipart/form-data" action="#" method="post">
+											<div class="col-md-12">
+												<div class="form-group">
+												<div class="input-group">
+													<span class="input-group-addon">Nombre de valeurs a générer :  </span>
+													<input name="nb" type="text" class="form-control">
+													<div class="input-group-btn">
+													</div>
+												</div>
+												</div>
+											</div>
+
+											<div class="col-md-12">
+												<div class="form-group">
+												<div class="input-group">
+													<span class="input-group-addon">Valeur max</span>
+													<input name="min" type="text" class="form-control">
+													<div class="input-group-btn">
+													</div>
+												</div>
+												</div>
+											</div>
+
+											<div class="col-md-12">
+												<div class="form-group">
+												<div class="input-group">
+													<span class="input-group-addon">Valeur min</span>
+													<input name="max" type="text" class="form-control">
+													<div class="input-group-btn">
+													</div>
+												</div>
+												</div>
+											</div>
+
+											<div class="col-md-12">
+												<div class="form-group">
+												<div class="input-group">
+													<span class="input-group-addon">ID Capteur</span>
+													<input name="idcapt" type="text" class="form-control" value="'.$type_capteur.'" disabled>
+													<div class="input-group-btn">
+													</div>
+												</div>
+												</div>
+											</div>
+
+											<button type="submit" class="btn btn-md btn-success pull-right " name="add" value="Appliquer">Générer des mesures</button>
+											</form>
+											</div>
+											</div>
+											';
+
+
 					}
 					else
 					{
@@ -419,12 +481,101 @@
 									</div>
 									</div>
 								</div>
-								<a href="#"><button type="submit" class="btn btn-md btn-success pull-right " name="submite" value="Appliquer">Supprimer les mesures</button></a>
+								<button type="submit" class="btn btn-md btn-success pull-right " name="submite" value="Appliquer">Supprimer les mesures</button>
 							</form>
 							</div>
 							</div>
 									';
 
+
+							echo '<h2> Rajouter des valeurs aléatoires </h2>';
+							echo '
+							<div class = "panel panel-default">
+								<div class = "panel-heading">
+									<h3 class = "panel-title">
+									Options
+									</h3>
+								</div>
+							<div class = "panel-body">
+							<form enctype="multipart/form-data" action="#" method="post">
+							<div class="col-md-12">
+								<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">Nombre de valeurs a générer :  </span>
+									<input name="nb" type="text" class="form-control">
+									<div class="input-group-btn">
+									</div>
+								</div>
+								</div>
+							</div>
+
+							<div class="col-md-12">
+								<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">Valeur max</span>
+									<input name="min" type="text" class="form-control">
+									<div class="input-group-btn">
+									</div>
+								</div>
+								</div>
+							</div>
+
+							<div class="col-md-12">
+								<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">Valeur min</span>
+									<input name="max" type="text" class="form-control">
+									<div class="input-group-btn">
+									</div>
+								</div>
+								</div>
+							</div>
+
+							<div class="col-md-12">
+								<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon">ID Capteur</span>
+									<input name="idcapt" type="text" class="form-control" value="'.$type_capteur.'" disabled>
+									<div class="input-group-btn">
+									</div>
+								</div>
+								</div>
+							</div>
+
+							<button type="submit" class="btn btn-md btn-success pull-right " name="add" value="Appliquer">Générer des mesures</button>
+							</form>
+							</div>
+							</div>
+							';
+
+
+							if(isset($_POST['add']))
+							{
+								$nb = trim($_POST['nb']);
+								$nb = strip_tags($nb);
+								$nb = htmlspecialchars($nb);
+
+								$min = trim($_POST['min']);
+								$min = strip_tags($min);
+								$min = htmlspecialchars($min);
+
+								$max = trim($_POST['max']);
+								$max = strip_tags($max);
+								$max = htmlspecialchars($max);
+
+								$idcapt = trim($_POST['idcapt']);
+								$idcapt = strip_tags($idcapt);
+								$idcapt = htmlspecialchars($idcapt);
+
+
+								$time = time();
+								for ($i = 0; $i < $nb; $i++) {
+									$querry= "INSERT INTO `Mesures`(`DateTimMes`, `Mesure`, `NodCap_idNodCap`, `central_idcentral`) VALUES ('".date( 'Y-m-d H:i:00', $time)."', ".rand($min,$max).", ".	$idcapt.", ".$id_central.")";
+									$time = strtotime('+1 minutes', $time);
+									$resultat = mysql_query ($querry);
+								}
+
+							}
 							if(isset($_POST['submite']))
 							{
 								$H_debut = trim($_POST['H_debut']);

@@ -16,7 +16,7 @@ if (($linkdb = DB_connx("auraynodcap1")))
     echo " *** $query";
     $result = mysql_query($query);
    	echo"<HR><BR>";
-    if ($result==0) echo "<BIG><BIG>Désolé PB d'effacement dans BD </BIG></BIG>";
+    if ($result==0) echo "<BIG><BIG>Désolé problème d'effacement dans BD </BIG></BIG>";
 
 
 
@@ -35,7 +35,7 @@ if (($linkdb = DB_connx("auraynodcap1")))
        echo " *** $query";
        $result = mysql_query($query);
     	echo"<HR><BR>";
- 	   if ($result==0) echo "<BIG><BIG>Désolé PB d'enregistrement dans BD </BIG></BIG>";
+ 	   if ($result==0) echo "<BIG><BIG>Désolé problème d'enregistrement dans BD </BIG></BIG>";
        }
 	}
 else echo "<BIG><BIG>Désolé pas de BD </BIG></BIG>";
